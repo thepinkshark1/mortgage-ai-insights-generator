@@ -93,9 +93,25 @@ export default function Index() {
         </div>
       </section>
 
-      {/* שאר הסקשנים ימשיכו כאן... */}
+      {/* Call to Action */}
+      <section className="hero-gradient section-padding">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            הצטרפו ל-50 יועצי המשכנתאות החכמים
+          </h2>
+          <p className="text-xl mb-8">
+            שבוע התנסות ללא עלות - מוגבל ל-50 המצטרפים הראשונים!
+          </p>
+          <button className="button-primary text-lg">
+            התחל ניסיון חינם עכשיו
+          </button>
+          <p className="mt-4 text-muted-foreground">
+            ללא התחייבות. בטל בכל עת.
+          </p>
+        </div>
+      </section>
 
-      {/* FAQ Section */}
+      {/* FAQ Section - Now at the bottom of the page */}
       <section className="section-padding bg-muted">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
@@ -148,24 +164,6 @@ export default function Index() {
               </AccordionContent>
             </AccordionItem>
           </Accordion>
-        </div>
-      </section>
-
-      {/* Call to Action */}
-      <section className="hero-gradient section-padding">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            הצטרפו ל-50 יועצי המשכנתאות החכמים
-          </h2>
-          <p className="text-xl mb-8">
-            שבוע התנסות ללא עלות - מוגבל ל-50 המצטרפים הראשונים!
-          </p>
-          <button className="button-primary text-lg">
-            התחל ניסיון חינם עכשיו
-          </button>
-          <p className="mt-4 text-muted-foreground">
-            ללא התחייבות. בטל בכל עת.
-          </p>
         </div>
       </section>
     </div>
