@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Play, CheckCircle2, ArrowRight, Mic, MessageSquare, FileText, Clock, Zap } from "lucide-react";
 import {
@@ -17,10 +16,6 @@ export default function Index() {
       <section className="hero-gradient min-h-[90vh] flex items-center relative">
         <div className="max-w-7xl mx-auto text-center px-4 py-24 relative z-10">
           <div className="flex flex-col items-center space-y-6">
-            <div className="inline-block bg-gradient-start/10 px-4 py-2 rounded-full mb-2">
-              <span className="text-gradient-start font-medium">טכנולוגיה חדשנית ליועצי משכנתאות</span>
-            </div>
-            
             <h1 className="text-4xl md:text-6xl font-bold gradient-text-vibrant mb-6 leading-tight max-w-5xl">
               הטכנולוגיה שמשדרגת יועצי משכנתאות רגילים למומחי סגירה ושיווק
             </h1>
@@ -56,8 +51,6 @@ export default function Index() {
         <div className="absolute bottom-20 left-10 w-80 h-80 bg-gradient-end/10 rounded-full filter blur-3xl"></div>
       </section>
       
-      <div className="wave-divider"></div>
-
       {/* Features Section */}
       <section className="py-24 bg-light-gray">
         <div className="max-w-7xl mx-auto px-4">
