@@ -1,6 +1,11 @@
-
 import { useState } from "react";
 import { Play, CheckCircle2, ArrowRight, ChevronDown } from "lucide-react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export default function Index() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -89,6 +94,62 @@ export default function Index() {
       </section>
 
       {/* שאר הסקשנים ימשיכו כאן... */}
+
+      {/* FAQ Section */}
+      <section className="section-padding bg-muted">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+            שאלות נפוצות
+          </h2>
+          
+          <Accordion type="single" collapsible className="space-y-4">
+            <AccordionItem value="item-1" className="bg-white rounded-lg">
+              <AccordionTrigger className="px-6">
+                כמה זמן לוקח לנתח שיחה?
+              </AccordionTrigger>
+              <AccordionContent className="px-6">
+                בדרך כלל 2-5 דקות, תלוי באורך השיחה.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-2" className="bg-white rounded-lg">
+              <AccordionTrigger className="px-6">
+                איך מעלים הקלטה למערכת?
+              </AccordionTrigger>
+              <AccordionContent className="px-6">
+                פשוט גוררים את קובץ ההקלטה לאזור המיועד במערכת. המערכת תומכת ב-MP3, WAV, M4A ופורמטים נפוצים אחרים.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-3" className="bg-white rounded-lg">
+              <AccordionTrigger className="px-6">
+                מה קורה אם השיחה לא בעברית?
+              </AccordionTrigger>
+              <AccordionContent className="px-6">
+                המערכת תומכת גם באנגלית! בקרוב נוסיף שפות נוספות.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-4" className="bg-white rounded-lg">
+              <AccordionTrigger className="px-6">
+                האם המידע שלי מאובטח?
+              </AccordionTrigger>
+              <AccordionContent className="px-6">
+                בהחלט! כל ההקלטות מוצפנות ומאוחסנות באופן מאובטח. אנחנו לא משתמשים בנתונים שלך לשום מטרה אחרת.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-5" className="bg-white rounded-lg">
+              <AccordionTrigger className="px-6">
+                למי מתאימה המערכת?
+              </AccordionTrigger>
+              <AccordionContent className="px-6">
+                המערכת מתאימה ליועצי משכנתאות בכל הרמות - מהמתחילים ועד המנוסים ביותר. אם אתם מדברים עם לקוחות, המערכת תעזור לכם.
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+      </section>
 
       {/* Call to Action */}
       <section className="hero-gradient section-padding">
