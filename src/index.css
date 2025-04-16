@@ -26,7 +26,14 @@
   }
 
   body {
-    @apply bg-background text-foreground font-lexend rtl;
+    @apply bg-background text-foreground font-lexend;
+    direction: rtl;
+  }
+}
+
+@layer utilities {
+  .rtl {
+    direction: rtl;
   }
 }
 
