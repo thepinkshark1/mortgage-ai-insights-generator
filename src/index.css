@@ -43,24 +43,27 @@
   }
   
   .gradient-text-vibrant {
-    @apply bg-clip-text text-transparent bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 animate-pulse;
-    animation: pulse 3s ease-in-out infinite;
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-gradient-start via-gradient-mid to-gradient-end animate-pulse-slow;
   }
   
   .gradient-text-subtle {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-indigo-500;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gradient-start to-gradient-mid;
   }
   
   .hero-gradient {
-    @apply bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5;
+    @apply bg-gradient-to-br from-white to-light-gray bg-hero-pattern;
+  }
+
+  .card-gradient {
+    @apply bg-gradient-to-br from-white to-light-gray shadow-lg;
   }
 
   .section-padding {
-    @apply px-4 py-12 sm:px-6 sm:py-16 lg:px-8;
+    @apply px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-24;
   }
 
   .button-primary {
-    @apply bg-accent text-white font-medium px-8 py-3 rounded-lg hover:bg-accent/90 transition-all;
+    @apply bg-gradient-to-r from-gradient-start to-gradient-end text-white font-medium px-8 py-3 rounded-lg hover:opacity-90 transition-all shadow-md;
   }
 
   .button-primary svg {
@@ -69,6 +72,10 @@
 
   .fade-in {
     @apply opacity-0 translate-y-4 animate-[fade-in_0.5s_ease-out_forwards];
+  }
+
+  .float {
+    @apply animate-float;
   }
 }
 
@@ -79,4 +86,22 @@
   50% {
     background-size: 120% 120%;
   }
+}
+
+/* Curved section dividers */
+.wave-divider {
+  position: relative;
+  height: 150px;
+  margin-top: -150px;
+}
+
+.wave-divider::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23ffffff' fill-opacity='1' d='M0,224L48,213.3C96,203,192,181,288,160C384,139,480,117,576,128C672,139,768,181,864,181.3C960,181,1056,139,1152,133.3C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E") no-repeat bottom;
+  background-size: cover;
 }
