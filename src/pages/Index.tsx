@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Play, CheckCircle2, ArrowLeft, ChevronDown } from "lucide-react";
+import { Play, CheckCircle2 } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
@@ -15,11 +15,13 @@ export default function Index() {
       {/* Hero Section */}
       <section className="hero-gradient section-padding">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold gradient-text mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold animate-fade-in gradient-text-vibrant mb-6">
             הטכנולוגיה שמשדרגת יועצי משכנתאות רגילים למומחי סגירה ושיווק
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12">
-            יותר סגירות. פחות מאמץ. המערכת שמנתחת את שיחות ופגישות המכירה שלך, ומספקת לך משוב אישי, תובנות מעשיות, תוצרי שיווק מוכנים והודעות פולו-אפ מותאמות לכל לקוח - הכל בלחיצת כפתור.
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12 animate-fade-in gradient-text-subtle">
+            יותר סגירות. פחות מאמץ. אפס עובדים חדשים.
+            <br />
+            המערכת שמנתחת את שיחות המכירה שלך ומייצרת משוב אישי, תוכן שיווקי מותאם והודעות מעקב מדויקות - הכל בלחיצת כפתור.
           </p>
         </div>
       </section>

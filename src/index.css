@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -41,6 +42,15 @@
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
   }
   
+  .gradient-text-vibrant {
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 animate-pulse;
+    animation: pulse 3s ease-in-out infinite;
+  }
+  
+  .gradient-text-subtle {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-indigo-500;
+  }
+  
   .hero-gradient {
     @apply bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5;
   }
@@ -59,5 +69,14 @@
 
   .fade-in {
     @apply opacity-0 translate-y-4 animate-[fade-in_0.5s_ease-out_forwards];
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-size: 100% 100%;
+  }
+  50% {
+    background-size: 120% 120%;
   }
 }
