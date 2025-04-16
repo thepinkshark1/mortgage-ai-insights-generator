@@ -21,13 +21,10 @@ export default function Index() {
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12">
             יותר סגירות. פחות מאמץ. המערכת שמנתחת את שיחות ופגישות המכירה שלך, ומספקת לך משוב אישי, תובנות מעשיות, תוצרי שיווק מוכנים והודעות פולו-אפ מותאמות לכל לקוח - הכל בלחיצת כפתור.
           </p>
-          <button className="button-primary">
-            התחל ניסיון חינם <ArrowLeft className="inline" />
-          </button>
         </div>
       </section>
 
-      {/* Problem Section */}
+      {/* Rest of the existing code remains the same... */}
       <section className="bg-muted section-padding">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -110,7 +107,7 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Call to Action */}
+      {/* Last section (Call to Action) remains unchanged with button */}
       <section className="hero-gradient section-padding">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -128,7 +125,7 @@ export default function Index() {
         </div>
       </section>
 
-      {/* FAQ Section - Now at the bottom of the page */}
+      {/* FAQ Section */}
       <section className="section-padding bg-muted">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
