@@ -177,6 +177,63 @@ export default function Index() {
                 המערכת מתאימה ליועצי משכנתאות בכל הרמות - מהמתחילים ועד המנוסים ביותר. אם אתם מדברים עם לקוחות, המערכת תעזור לכם.
               </AccordionContent>
             </AccordionItem>
+
+            <AccordionItem value="item-6" className="bg-white rounded-lg">
+              <AccordionTrigger className="px-6">
+                מה העלות בסיום תקופת ההתנסות?
+              </AccordionTrigger>
+              <AccordionContent className="px-6 text-right">
+                <h3 className="font-bold mb-4">חבילות חודשיות</h3>
+                
+                <div className="space-y-6">
+                  <div>
+                    <h4 className="font-semibold">חבילת "סטארטר" – 8 הקלטות</h4>
+                    <ul className="list-disc list-inside">
+                      <li>8 הקלטות בחודש</li>
+                      <li>מוצרי תוכן בהתאמה אישית לפי תוצר מוגדר מראש</li>
+                    </ul>
+                    <p>מחיר חודשי: 196 ש"ח</p>
+                    <p>עלות לקלטה: 24.5 ש"ח</p>
+                    <p>מנוי שנתי (12 תשלומים): 2,352 ש"ח</p>
+                    <p>כולל חודשיים מתנה – סה"כ 14 חודשי שימוש</p>
+                    <p>עלות אפקטיבית לקלטה במנוי שנתי: 21 ש"ח להקלטה</p>
+                  </div>
+
+                  <div>
+                    <h4 className="font-semibold">חבילת "קריאייטור" – 24 הקלטות</h4>
+                    <p>מחיר חודשי: 528 ש"ח</p>
+                    <p>עלות להקלטה: 22 ש"ח</p>
+                    <p>מנוי שנתי (12 תשלומים): 6,336 ש"ח</p>
+                    <p>כולל חודשיים מתנה – סה"כ 14 חודשי שימוש</p>
+                    <p>עלות אפקטיבית להקלטה: 18.9 ש"ח</p>
+                  </div>
+
+                  <div>
+                    <h4 className="font-semibold">חבילת "פרימיום" – 48 הקלטות</h4>
+                    <ul className="list-disc list-inside">
+                      <li>ליווי אסטרטגי אישי פעם בחודש עם שמעון שטרית</li>
+                      <li>מתאים לעסקים מבוססים ויוצרי תוכן כבדים</li>
+                    </ul>
+                    <p>מחיר חודשי: 912 ש"ח</p>
+                    <p>עלות להקלטה: 19 ש"ח</p>
+                    <p>מנוי שנתי (12 תשלומים): 10,944 ש"ח</p>
+                    <p>כולל חודשיים מתנה – סה"כ 14 חודשי שימוש</p>
+                    <p>עלות אפקטיבית לקלטה: 16.3 ש"ח</p>
+                  </div>
+
+                  <div>
+                    <h4 className="font-semibold">הטבות כלליות בכל החבילות</h4>
+                    <ul className="list-disc list-inside">
+                      <li>תקופת ניסיון: שבוע ראשון – עד 3 הקלטות חינם</li>
+                      <li>שירות אנושי זמין: מענה אישי מהיר</li>
+                      <li>ללא הגבלה על אורך ההקלטה (מומלץ עד 90 דק')</li>
+                      <li>מעבר גמיש בין חבילות</li>
+                    </ul>
+                    <p className="mt-2 text-sm">כל המחירים לא כוללים מע״מ כדין.</p>
+                  </div>
+                </div>
+              </AccordionContent>
+            </AccordionItem>
           </Accordion>
         </div>
       </section>
