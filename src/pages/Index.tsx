@@ -39,25 +39,42 @@ export default function Index() {
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <p className="text-lg">
-                במשך שנים, הייתי בדיוק במקום שבו נמצאים רבים מאיתנו. יועץ משכנתאות מקצועי שמגשש באפלה בכל מה שקשור למכירות. מנחש. מנסה. מקווה ובעיקר מ-ת-ב-ל-ג-ן.
-              </p>
+              <div className="space-y-4">
+                <p className="text-lg">
+                  במשך שנים, הייתי בדיוק במקום שבו נמצאים רבים מאיתנו. יועץ משכנתאות מקצועי שמגשש באפלה בכל מה שקשור למכירות. מנחש. מנסה. מקווה ובעיקר מ-ת-ב-ל-ג-ן.
+                </p>
+                <p className="text-lg">
+                  בין אם מדובר על עסק בתחילת הדרך או על עסק עם עשרים שנות ניסיון - כולנו נאבקים באותם האתגרים.
+                </p>
+                <p className="text-lg font-bold">
+                  אבל היום זה נגמר.
+                </p>
+                <p className="text-lg">
+                  למי שלא מכיר, אני שמעון שטרית, והיום אני לא רוצה ולא מוכן לדבר על כאב.
+                </p>
+              </div>
+              
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <h3 className="text-xl font-bold mb-4">המחיר האמיתי של בינוניות במכירות:</h3>
                 <ul className="space-y-4">
-                  <li className="flex items-center gap-3">
-                    <CheckCircle2 className="text-accent shrink-0" />
+                  <li className="flex items-start gap-3">
+                    <CheckCircle2 className="text-accent shrink-0 mt-1" />
                     <span>על כל לקוח אחד שסגרת, 5 אחרים הלכו ליועץ אחר</span>
                   </li>
-                  <li className="flex items-center gap-3">
-                    <CheckCircle2 className="text-accent shrink-0" />
-                    <span>הודעות פולו אפ פשוטות שמעולם לא שלחת</span>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle2 className="text-accent shrink-0 mt-1" />
+                    <span>הודעות פולו אפ פשוטות שמעולם לא שלחת כי לא ידעת איך ומה לכתוב או כי לא רצית להישמע מציק</span>
                   </li>
-                  <li className="flex items-center gap-3">
-                    <CheckCircle2 className="text-accent shrink-0" />
-                    <span>תוכן שיווקי שתמיד נדחה ל"יום אחר"</span>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle2 className="text-accent shrink-0 mt-1" />
+                    <span>תוכן שיווקי שתכננת להכין ולשגר לאויר אבל תמיד נדחה ל"יום אחר"</span>
                   </li>
                 </ul>
+                <div className="mt-6 text-lg">
+                  <p>במקום לדבר על הבעיות, אני רוצה לדבר על המספרים: יועץ משכנתאות ממוצע מפספס לפחות 152,000 ₪ בשנה בגלל הפערים האלה.</p>
+                  <p className="mt-4">המערכת שפיתחנו עבורך סוגרת את הפערים האלו באופן מיידי, ומשחררת אותך מה"דרישה הכפולה" המתישה של המקצוע - להיות גם מומחה משכנתאות וגם מומחה שיווק ומכירות.</p>
+                  <p className="mt-4">לראשונה, אפשר להתמקד במה שאנחנו באמת אוהבים ונהנים לעשות, בזמן שהמערכת דואגת לכל השאר.</p>
+                </div>
               </div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg text-center">
