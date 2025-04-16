@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Play, CheckCircle2, ArrowRight, Mic, MessageSquare, FileText, Clock, Zap } from "lucide-react";
 import {
@@ -18,7 +17,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto text-center px-4 py-24 relative z-10">
           <div className="flex flex-col items-center space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold gradient-text-vibrant mb-6 leading-tight max-w-5xl">
-              הופכים יועצי משכנתאות רגילים - למומחי שיווק ומכירות
+              הופכים יועצי משכנתאות רגילים למומחי שיווק ומכירות
             </h1>
             
             <p className="text-2xl md:text-3xl max-w-3xl mx-auto mb-12 gradient-text-subtle leading-relaxed font-medium">
@@ -328,4 +327,3 @@ export default function Index() {
     </div>
   );
 }
-
