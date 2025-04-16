@@ -7,20 +7,20 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 209 63% 23%;
+    --background: 0 0% 100%; /* White */
+    --foreground: 0 0% 0%; /* Black */
 
-    --primary: 209 63% 23%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 333 77% 58%; /* Magenta Pink */
+    --primary-foreground: 0 0% 100%; /* White */
 
-    --secondary: 209 63% 58%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 0 0% 0%; /* Black */
+    --secondary-foreground: 0 0% 100%; /* White */
 
-    --accent: 35 90% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 333 77% 58%; /* Magenta Pink */
+    --accent-foreground: 0 0% 0%; /* Black */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 0 0% 95%; /* Light Gray */
+    --muted-foreground: 0 0% 45%; /* Dark Gray */
 
     --radius: 0.5rem;
   }
