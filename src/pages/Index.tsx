@@ -18,7 +18,7 @@ export default function Index() {
           <h1 className="text-4xl md:text-6xl font-bold animate-fade-in gradient-text-vibrant mb-6">
             הטכנולוגיה שמשדרגת יועצי משכנתאות רגילים למומחי סגירה ושיווק
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12 animate-fade-in gradient-text-subtle">
+          <p className="text-2xl md:text-3xl text-muted-foreground max-w-3xl mx-auto mb-12 animate-fade-in gradient-text-subtle leading-relaxed font-medium">
             יותר סגירות. פחות מאמץ. אפס עובדים חדשים.
             <br />
             המערכת שמנתחת את שיחות המכירה שלך ומייצרת משוב אישי, תוכן שיווקי מותאם והודעות מעקב מדויקות - הכל בלחיצת כפתור.
