@@ -26,7 +26,7 @@
   }
 
   body {
-    @apply bg-background text-foreground font-lexend;
+    @apply bg-background text-foreground font-lexend rtl;
   }
 }
 
@@ -45,6 +45,10 @@
 
   .button-primary {
     @apply bg-accent text-white font-medium px-8 py-3 rounded-lg hover:bg-accent/90 transition-all;
+  }
+
+  .button-primary svg {
+    @apply mr-0 ml-2;
   }
 
   .fade-in {

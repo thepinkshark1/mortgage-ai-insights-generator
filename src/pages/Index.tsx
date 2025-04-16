@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Play, CheckCircle2, ArrowRight, ChevronDown } from "lucide-react";
+import { Play, CheckCircle2, ArrowLeft, ChevronDown } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
@@ -22,7 +22,7 @@ export default function Index() {
             יותר סגירות. פחות מאמץ. המערכת שמנתחת את שיחות ופגישות המכירה שלך, ומספקת לך משוב אישי, תובנות מעשיות, תוצרי שיווק מוכנים והודעות פולו-אפ מותאמות לכל לקוח - הכל בלחיצת כפתור.
           </p>
           <button className="button-primary">
-            התחל ניסיון חינם <ArrowRight className="inline ml-2" />
+            התחל ניסיון חינם <ArrowLeft className="inline" />
           </button>
         </div>
       </section>
